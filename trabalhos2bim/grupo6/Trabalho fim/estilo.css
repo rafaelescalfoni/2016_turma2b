@@ -1,0 +1,232 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+html{
+    height: 1190px;
+    
+    background-color: #ECEBEB;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    
+    
+    background-color:  white;
+    border-radius: 6px;
+}
+
+body{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    width: 1080px;
+    height: 1100px;
+    margin: auto;
+    margin-top: 30px;
+    background-color:  white;
+    
+}
+
+#logo{
+    width: 80px;
+    padding: 25px;
+    float: left;
+}
+
+#menu{
+    width: 50%;
+    height: 90px;
+    margin-left: auto;
+     color: black;
+    font-family: Arial;
+    font-size: 15px;
+    position: relative;
+    
+    
+}
+
+
+header nav ul li{
+    display: inline-flex;
+    position: relative;
+    top: 50px;
+    padding: 10px;
+    
+}
+
+header  nav ul li:hover{
+    background-color: #B52025;
+    color: white;
+    transition-duration: 0.2s;
+   
+    
+}
+/*----------------fim menu------------*/
+.fotoGrande img{
+    width: 1085px;
+    position: relative;
+    right: 10px;
+    border: 7px solid #BF2919;
+}
+
+/*-----------------*/
+
+#colunas{
+    width:  100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#colunaIndividual{
+    width: 25%;
+    padding: 25px;
+    float: left;
+    margin-left: 30px;
+}
+
+body div div img{
+    
+}
+
+#icon{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+span{
+    font-size: 25px;
+    color: #B52025; 
+}
+
+span2{
+    color: darkgray;
+}
+
+body div div p{
+    margin-top: 12px
+}
+
+#borda{
+    
+    padding: 2px;
+    
+    border: 1px solid darkgray;
+}
+
+body div div div img{
+    width:100%;
+    height: auto;
+    
+}
+
+body div div p{
+    text-align: justify;
+}
+
+#more{
+    
+    padding: 5px;
+    padding-bottom: 20px;
+    text-align: right;
+    border-radius: 10px;
+    background-color: white;
+    background: linear-gradient(white, white, lightgray);
+    
+}
+#texto{
+  width: 50%;
+    margin-right: auto;
+    padding-left: 20px;
+}
+#more p{
+    text-align: right;
+    margin-right: 15px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: gray;
+    background: linear-gradient(90deg, white, white, white, white, white, white, white, lightgray); 
+}
+/*--------------------*/
+#parteBaixo{
+    height: 200px;
+}
+#esquerda{
+    width: 66%;
+    float: left;
+}
+#bordabaixo{
+    
+    padding: 2px;
+   
+    margin-left: 20px;
+    border: 1px solid darkgray;
+    float: left;
+}
+#direita{
+    width: 27%;
+    height: 200px;
+    float: left;
+    padding-left: 40px;
+    padding-right: 10px;
+    
+}
+form{
+    margin-top: 20px;
+    width: 300px;
+    
+}
+
+input:first-child{
+    width: 220px;
+    height: 30px;
+    background-color: #FFEAEB;
+    border: 1px solid #E5C8C7;
+}
+
+input:last-child{
+    height: 28px;
+    background-color: #BF2919;
+    color: white;
+    border: 1px solid #E5C8C7;
+}
+footer{
+    height: 60px;
+    background-color: white;
+    border-top: 1px dotted lightgray;
+}
+#footer p{
+    width: 50%;
+    
+    margin-right: auto;
+     color: black;
+    font-family: Arial;
+    font-size: 15px;
+   
+    float: left;
+}
+footer nav ul{
+    width: 1060px;
+   
+    margin-right: auto;
+    display: inline-flex;
+    
+    
+}
+footer nav ul li{
+    display: inline-flex;
+    margin-left: 15px;
+    
+}
+footer nav ul{
+    padding: 10px
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
