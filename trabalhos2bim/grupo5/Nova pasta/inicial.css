@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+}
+#espaco{
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    position: relative;
+}
+header{
+    background-color: white;
+    width: 100%;
+    height: 51px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px solid gray;
+    border-bottom:1px solid #E3E3E3;
+   
+    
+}
+header nav ul{
+    
+    padding: 0;
+    display: inline-flex;
+    list-style: none;
+    
+}
+
+
+header nav>ul>li:first-child{
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    letter-spacing: 6px;
+    border-right: 1px solid #E3E3E3;
+    margin-left: 0px;
+    
+}
+
+header nav>ul >li:nth-child(2){
+    margin-left: -13px; 
+} 
+header nav>ul >li:nth-child(6){
+    margin-right: 542px;
+} 
+
+
+header nav>ul >li a{
+    
+    margin-left: 20px;
+    padding-right:20px;
+    
+    position: relative;
+    left: 10px;
+    bottom: -13px;
+    border-right: 1px solid #E3E3E3;
+    font-size: 12px;
+    text-decoration: none;
+    color: #757895;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    
+}
+
+
+
+header span{
+    
+    color: #b3b3b3;
+    padding-bottom: 18px;
+    padding-top: 17px;
+    padding-left: 19px;
+    padding-right: 19px;
+    margin-top: -1px;
+    margin-right: -1px;
+    border-left:1px solid #E3E3E3;
+    border-right:1px solid #E3E3E3;
+    
+    
+}
+
+header nav>ul ul{
+    position: absolute;
+    right: 0;
+}
+
+/*----------------------------FIM MENU--------------------*/
+
+.fundo{
+    background-color: #f4f4f4;
+}    
+
+.span{
+    border-bottom: dotted 1px lightgrey;
+}
+
+h6 span{
+    border-bottom: dotted 1px lightgrey;
+}
+
+aside{
+    width: 40%;
+    padding-bottom: 30px;
+    padding-top: 17px;
+    padding-left: 19px;
+    padding-right: 19px;
+   
+    border-left:100px solid #f4f4f4;
+    border-right:100px solid #f4f4f4;
+    float: left;
+
+}
+
+.divlado{
+    background-color: white;
+    width: 100%;
+    border: 1px solid lightgrey;
+    
+}
+
+body aside div img{
+    width: 100%;
+    height: 150px;
+}
+.avatar{
+    border-radius: 100px;
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 180px;
+    bottom: 10px;
+}
+.divbaixo{
+    width: 100%;
+    height: 100px;
+    padding: 15px 0;
+    border-top: 1px dotted lightgrey;   
+}
+.divbaixo-ultimo{
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px dotted lightgrey;   
+    width: 100%;
+    height: 100px;
+    padding: 15px 0;
+
+}
+
+body aside .divbaixo img, .divbaixo-ultimo img{
+    width: 60px;
+    height: 60px;
+    
+}
+body aside .divbaixo p, .divbaixo-ultimo p{
+    width: 70%;
+    float: right;
+    font-size: 11px;
+}
+#bordinha{
+    
+    height: 940px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+.divdireita{
+    width: 60%;
+    float: right;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+#titulo{
+    border: 1px solid lightgrey;
+    width: 60%;
+    float: left;
+    height: 150px;
+    background-color: white;
+    padding: 20px;
+}
+#ladotitulo{
+    width: 30%;
+    float:left;
+    border: 1px solid lightgrey;
+    height: 150px;
+    padding-right: 25px;
+    text-align: right;
+    padding-top: 25px;
+    background-color: white;
+    padding: 20px;
+}
+#ladotitulo h7{
+    display: block;
+}
+#ladotitulo p{
+    display: inline;
+    border-bottom: dotted 1px lightgrey;
+    color: lightgray;
+    margin-right: 3px;
+}
+#baixotitulo{
+    width: 90%;
+    height: 700px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    padding-top: 200px;
+    padding-left: 90px;
+}
+#baixotitulo img{
+    margin-bottom: 20px;
+}
+.avatar-artigo{
+    border-radius: 100px;
+    width: auto;
+    height: auto;
+}
+
+
+ul{
+    list-style-type: none;
+}
+#baixo{
+    padding-top: 30px;
+}
+footer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    clear: both;
+    padding-left: 550px;
+}
