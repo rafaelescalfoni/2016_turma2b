@@ -1,0 +1,151 @@
+* {
+	font-family: "Arial", sans-serif;
+}
+body {
+	/*background-image: url(../img/body-background.png);*/
+	margin: 0;
+}
+
+main, #footer-content {
+	width: 90%;
+	margin: 0 auto;
+	display: table;
+}
+
+nav {
+	clear: right;
+	float: right;
+}
+
+nav li {
+	display: inline;
+	margin-left: 10px; 
+}
+
+aside, section {
+	float: left;
+}
+aside {
+	margin-right: 10px;
+}
+
+aside div {
+	background-color: #ddd;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 5px 5px 0 0;
+}
+aside label {
+	display: block;
+	text-transform: uppercase;
+}
+aside input[type=text] {
+	border-radius: 5px;
+}
+aside ul {
+	padding-left: 0;
+}
+aside li {
+	list-style: none;
+	text-transform: uppercase;
+	padding: 5px 3px;
+	border-bottom: 1px #aaa solid;
+	font-size: 0.7em;
+}
+aside li:first-child {
+	background-color: #ddd;
+	padding: 8px 3px;
+}
+aside li:last-child {
+	border-bottom: #ddd solid 6px;
+}
+
+aside a {
+	text-decoration: none;
+	color: #000;
+}
+section {
+	width: 75%;
+}
+section ul {
+	padding-left: 0;
+}
+section li {
+	list-style: none;
+}
+section img {
+	width: inherit;
+
+}
+footer {
+	clear: left;
+	background-image: url(../img/fundo-rodape.png);
+	margin-top: 7px;
+}
+
+#redes-sociais  {
+	float: right;
+	list-style: none;
+}
+#redes-sociais li {
+	width: 50px;
+	height: 50px;
+	display: inline;
+}
+
+#redes-sociais a[href*="facebook.com"] {
+	background-color: #f00;
+	
+	background-image: url(../img/facebook.png);
+}
+.itens {
+	/*clear: left;*/
+	float: left;
+	width: 48%;
+	margin-right: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #666;
+}
+
+.itens figure {
+	width: 100px;
+	float: left;
+	margin: 10px;
+	padding-left: 0px; 
+}
+.itens figcaption {
+	font-size: 0.6em;
+}
+.itens a {
+	width: inherit;
+}
+.itens img {
+	width: inherit;
+	height: 100px;
+}
+.fundo-azul {
+	background-color: rgb(207, 207, 246);
+}
+.fundo-rosa {
+	background-color: rgb(246, 206, 207);
+}
+#sacola-compras {
+	float: right;
+	font-size: 0.8em;
+}
+#destaques {
+	height: 480px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+#destaques div {
+	display: inline;
+}
+#destaques img {
+
+	width: 700px;
+}
+#destaques div:hover{
+	margin-left: -700px;
+	transition: margin-left 5s;
+}

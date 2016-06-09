@@ -1,0 +1,174 @@
+* {
+	font-family: "Arial", sans-serif;
+}
+body {
+	/*
+	background-image: url(../img/body-background.png);
+	*/
+	margin: 0;
+}
+
+main, #footer-content {
+	width: 900px;
+	margin: 0 auto;
+	display: table;
+}
+
+nav {
+	clear: right;
+	float: right;
+}
+
+nav li {
+	display: inline;
+	margin-left: 10px; 
+}
+
+aside, section {
+	float: left;
+}
+aside {
+	margin-right: 10px;
+}
+
+aside div {
+	background-color: #ddd;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 5px 5px 0 0;
+}
+aside label {
+	display: block;
+	text-transform: uppercase;
+}
+aside input[type=text] {
+	border-radius: 10px;
+	border:#999 solid 1px;
+	height: 16px;
+	margin-top: 0;
+}
+
+aside button {
+	background-color: #ddd;
+	border: none;
+	padding-top: 5px;
+}
+aside ul {
+	padding-left: 0;
+}
+aside li {
+	list-style: none;
+	text-transform: uppercase;
+	padding: 5px 3px;
+	border-bottom: 1px #aaa solid;
+	font-size: 0.7em;
+}
+aside li:first-child {
+	background-color: #ddd;
+	padding: 8px 3px;
+}
+aside li:last-child {
+	border-bottom: #ddd solid 6px;
+}
+
+aside a {
+	text-decoration: none;
+	color: #000;
+}
+section {
+	width: 75%;
+}
+section ul {
+	padding-left: 0;
+}
+section li {
+	list-style: none;
+}
+section img {
+	width: inherit;
+
+}
+footer {
+	clear: left;
+	background-image: url(../img/fundo-rodape.png);
+	margin-top: 7px;
+}
+
+#redes-sociais  {
+	float: right;
+	list-style: none;
+}
+#redes-sociais li {
+	width: 50px;
+	height: 50px;
+	display: inline;
+}
+
+#redes-sociais a[href*="facebook.com"] {
+	background-color: #f00;
+	
+	background-image: url(../img/facebook.png);
+}
+.itens {
+	/*clear: left;*/
+	float: left;
+	width: 440px;
+	margin-right: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #666;
+}
+
+.itens h3 {
+	padding-left: 15px;
+	text-transform: uppercase;
+}
+.itens figure {
+	width: 131px;
+	float: left;
+	margin: 10px 0 10px 12px;
+	padding-left: 0px; 
+}
+.itens figcaption {
+	font-size: 0.6em;
+}
+.itens a {
+	width: inherit;
+}
+.itens img {
+	width: inherit;
+	
+	height: 140px;
+}
+
+.itens img:hover {
+	transform: translate(30px, 50px) rotate(3600deg) scale(1) skewY(40deg);
+	transition: transform  ease-in-out 2s;
+}
+
+.fundo-azul {
+	background-color: rgb(207, 207, 246);
+}
+.fundo-rosa {
+	background-color: rgb(246, 206, 207);
+}
+#sacola-compras {
+	float: right;
+	font-size: 0.8em;
+}
+#destaques {
+	width: 700px;
+	height: 480px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	display: inline-flex;
+	float: left;
+}
+
+#destaques div:hover{
+	margin-left: -700px;
+	transition: margin-left 5s;
+}
+#destaques div{
+	margin-left: 0px;
+	transition: margin-left 5s;
+}

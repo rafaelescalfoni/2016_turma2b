@@ -1,0 +1,200 @@
+* {
+	font-family: "Arial", sans-serif;
+}
+body {
+	/*background-image: url(../img/body-background.png);*/
+	margin: 0;
+}
+
+main, #footer-content{
+	width: 900px;
+	margin: 0 auto;
+	display: table;
+}
+
+header {
+	margin-bottom: 10px;
+	display: table;
+}
+ 
+footer {
+	clear: left;
+	background-image: url(../img/fundo-rodape.png);
+	margin-top: 7px;
+	padding: 10px;
+}
+
+header img {
+	display: inline;
+	float: left;
+}
+
+#sacola-compras {
+	float: right;
+	font-size: 0.8em;
+}
+
+nav {	
+	float: right;
+}
+
+nav li {
+	display: inline;
+	margin-left: 10px; 
+}
+
+aside, section {
+	float: left;
+}
+
+aside {
+	clear: left;
+	margin-right: 10px;
+}
+
+aside div {
+	background-color: #ddd;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 5px 5px 0 0;
+}
+aside label {
+	display: block;
+	text-transform: uppercase;
+}
+/*
+aside input[type=text] {
+	border-radius: 5px;
+	border: none;
+	margin-right: 0;
+	margin-top: -2px;
+	width: 180px;
+	height: 21px;
+	border-box: box-sizing;
+	padding: 4px 2px 0px 2px;
+}
+*/
+aside button {
+	border-radius: 0 5px 5px 0;
+	margin-left: -30px;
+	border: none;
+	padding-bottom: 5px;
+}
+aside ul {
+	padding-left: 0;
+}
+aside li {
+	list-style: none;
+	text-transform: uppercase;
+	padding: 5px 3px;
+	border-bottom: 1px #aaa solid;
+	font-size: 0.7em;
+}
+aside li:first-child{
+	background-color: #ddd;
+	padding: 8px 3px;
+	font-weight: bold;
+}
+aside li:last-child {
+	border-bottom: #ddd solid 6px;
+}
+
+aside a {
+	text-decoration: none;
+	color: #000;
+}
+section {
+	width: 680px;
+}
+section ul {
+	padding-left: 0;
+}
+section li {
+	list-style: none;
+}
+
+#destaques {
+	height: 480px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+#destaques div {
+	float: left;
+	transform: translateY(0px);
+	transition: all 3s ease;
+}
+#destaques div:hover{
+	transform: translateY(-480px);
+	/*margin-top: -480px;*/
+	transition: all 3s ease-in;
+}
+#destaques img {
+	width: inherit;
+}
+
+.itens h3 {
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #333, -2px -2px 2px #f33;
+}
+.itens figure {
+	width: 120px;
+	float: left;
+	margin: 10px;
+	padding-left: 0px; 
+}
+.itens figcaption {
+	font-size: 0.6em;
+}
+.itens a {
+	width: inherit;
+}
+.itens img {
+	width: inherit;
+	height: 130px;
+	border-radius: 5px;
+}
+
+.fundo-azul {
+	background-color: rgb(207, 207, 246);
+}
+.fundo-rosa {
+	background-color: rgb(246, 206, 207);
+}
+
+#redes-sociais  {
+	float: right;
+	list-style: none;
+}
+#redes-sociais li {
+	width: 50px;
+	height: 50px;
+	display: inline;
+}
+
+#redes-sociais img {
+	width: 32px;
+	height: 32px;
+}
+
+.itens img:hover {
+	width: inherit;
+	height: 130px;
+
+	border-radius: 50%;
+	transform: rotate(3600deg) scale(1.2,0.8) skewY(20deg);
+	transition: all 2s ease;
+}
+
+
+.itens {
+	/*clear: left;*/
+	float: left;
+	width: 420px;
+	margin-right: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #666;
+	padding: 10px;
+	border-box:box-sizing;
+	margin-bottom: 10px; 
+}
